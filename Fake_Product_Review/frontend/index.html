@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fake Product Review Detection</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="header">
+
+            <h1>🤖 Fake Product Review Detection</h1>
+
+            <p>
+                Analyze online product reviews using
+                Machine Learning & NLP
+            </p>
+
+        </div>
+
+        <label>Product Review</label>
+
+        <textarea
+            id="review"
+            rows="8"
+            placeholder="Enter your product review here..."></textarea>
+
+        <div class="buttons">
+
+            <button onclick="predictReview()">
+                🔍 Analyze Review
+            </button>
+
+            <button class="clear-btn" onclick="clearReview()">
+                🗑 Clear
+            </button>
+
+        </div>
+
+        <div id="loading" class="loading">
+
+            ⏳ Analyzing Review...
+
+        </div>
+
+        <div id="result" class="result">
+
+        </div>
+
+      <footer>
+    <p>Powered by ❤️ Spring Boot | Flask | Machine Learning</p>
+    <p class="developer">
+        Developed by <strong>AjithKumar Rampathoti</strong>
+    </p>
+</footer>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
