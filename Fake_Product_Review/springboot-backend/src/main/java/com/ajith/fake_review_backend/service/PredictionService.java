@@ -17,7 +17,7 @@ public class PredictionService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String FLASK_API = "http://127.0.0.1:5000/predict";
+    private final String FLASK_API = "https://fake-product-review-detection-1-b77c.onrender.com/predict";
 
     public PredictionResponse predictReview(ReviewRequest request) {
 
