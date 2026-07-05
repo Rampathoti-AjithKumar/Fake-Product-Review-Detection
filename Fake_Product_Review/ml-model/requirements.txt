@@ -1,0 +1,8 @@
+Flask==2.2.5
+gunicorn==23.0.0
+pandas
+numpy
+scikit-learn
+nltk
+joblib
+openpyxl
