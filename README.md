@@ -34,7 +34,6 @@ This project leverages **Machine Learning** and **Natural Language Processing (N
 | **Machine Learning** | Python, Flask, Scikit-learn |
 | **NLP** | NLTK, TF-IDF |
 | **Libraries** | Pandas, NumPy, Joblib |
-| **Database** | MongoDB *(Optional)* |
 | **Tools** | Git, GitHub, VS Code, Postman |
 
 ---
