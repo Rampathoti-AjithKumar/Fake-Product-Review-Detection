@@ -170,49 +170,6 @@ Fake-Product-Review-Detection/
 ```
 
 ---
-
-# 🚀 Getting Started
-
-## 1️⃣ Clone Repository
-
-```bash
-git clone https://github.com/<your-username>/Fake-Product-Review-Detection.git
-
-cd Fake-Product-Review-Detection
-```
-
----
-
-## 2️⃣ Start Flask API
-
-```bash
-pip install -r requirements.txt
-
-python app.py
-```
-
----
-
-## 3️⃣ Start Spring Boot Backend
-
-```bash
-mvn spring-boot:run
-```
-
----
-
-## 4️⃣ Run Frontend
-
-Simply open
-
-```
-index.html
-```
-
-using **Live Server** or any local web server.
-
----
-
 # 📊 Sample Prediction
 
 ### Input Review
